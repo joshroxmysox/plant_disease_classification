@@ -31,7 +31,7 @@ In this project, I chose only to use the tomato images. The datasets that were u
 
 imbalanced class dataset : https://drive.google.com/drive/folders/1gmjIk6JbsijxJ6zA_CZzWEtfMGuQA5vW?usp=sharing
 
-balanced class dataset : 'this data is not yet available due to upload speed. the readme will be updated when the data has been uploaded'
+balanced class dataset : https://drive.google.com/drive/folders/18BHNh7Ati1NAMfk6JjO9-c2uXReT5kdg?usp=sharing
 
 
 ### Executive Summary
@@ -41,6 +41,8 @@ balanced class dataset : 'this data is not yet available due to upload speed. th
 
 1. The balanced dataset was created by augmenting images of classes that had sub 3000 data point (images). You can see how I augmented the data in class_balancing.ipynb.
     - The only class which had over 3000 images was yellow_leaf_curl_virus, which had over 5,000. In this case, I picked the   first 3,0000 images to maintain class balance
+
+2. The relative paths in the notebooks seem weird and excessive. I was running all of my models in Google Cloud Platform notebook instances. Becausae of this, the more complex paths were necessary to avoid '.ipynb Checkpoints' from being counted as a class.
 
 
 
